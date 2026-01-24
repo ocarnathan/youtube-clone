@@ -6,8 +6,8 @@ import ffmpeg from 'fluent-ffmpeg';
 
 const STORAGE = new Storage(); // instance of GCS library
 
-const RAW_VIDEO_BUCKET_NAME = "neetcode-yt-raw-videos";
-const PROCESSED_VIDEO_BUCKET_NAME = "neetcode-yt-processed-videos";
+const RAW_VIDEO_BUCKET_NAME = "nate-yt-raw-videos";
+const PROCESSED_VIDEO_BUCKET_NAME = "nate-yt-processed-videos";
 
 const LOCAL_RAW_VIDEO_PATH = "./raw-videos";
 const LOCAL_PROCESSED_VIDEO_PATH = "./processed-videos";
